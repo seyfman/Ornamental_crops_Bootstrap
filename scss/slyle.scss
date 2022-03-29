@@ -1,0 +1,47 @@
+@import "fonts";
+@import "null";
+
+body {
+    // font-family: "PT Sans", sans-serif;
+    // font-family: "PT Sans Caption", sans-serif;
+    // font-family: "PT Serif", serif;
+    // font-family: "Roboto", sans-serif;
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    background-color: #fcfcfc;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+// ======== Header =======
+@import "header";
+
+// ======= index.html ===============
+//======== SiteBar ========
+@import "sitebar";
+
+// ======== Index maain ==========
+@import "index";
+
+//========== news.html ===============
+@import "news";
+
+// ============ news_item.html ========
+@import "news_item";
+
+//============ gallery.html ===========
+@import "gallery";
+
+// ============ about.html ==========
+@import "about";
+
+//============ contact.html =======
+@import "contact";
+
+//========== Footer ========
+@import "footer";
